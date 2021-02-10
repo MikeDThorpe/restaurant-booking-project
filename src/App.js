@@ -1,12 +1,15 @@
 import './styles/App.css';
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { Home, Menu, Restaurants } from "./pages";
+import { Navbar } from "./components";
 
 function App() {
   return (
     <div className="App">
+      
       <Router>
         <Switch>
+          <Navbar />
           <Route exact path="/" component={Home} />
           <Route path="/menu" component={Menu} />
           <Route path="/restaurants" component={Restaurants} />
