@@ -43,14 +43,12 @@ class Form extends React.Component {
               >
                 Date
               </label>
-              <input
+              <input type="datetime-local" 
                 value={this.state.date}
                 name="date"
                 onChange={this.changeHandler}
-                type="text"
                 id="defaultFormRegisterNameEx"
                 className="form-control"
-                placeholder="XX/XX/XXXX"
                 required
               />
               <div className="valid-feedback">Looks good!</div>
