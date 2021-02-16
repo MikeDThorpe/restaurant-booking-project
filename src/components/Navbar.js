@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Link from "react-router-dom/Link";
 import Button from "react-bootstrap/Button";
+import { LinkContainer } from "react-router-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Navbar.css";
 
@@ -25,11 +26,21 @@ function MyNav(props) {
             </Link>
           </Navbar.Text>
           <NavDropdown title="Locations" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/restaurants/antarctic">Antarctic</NavDropdown.Item>
-            <NavDropdown.Item href="/restaurants/arctic">Arctic</NavDropdown.Item>
-            <NavDropdown.Item href="/restaurants/sahara">Sahara</NavDropdown.Item>
-            <NavDropdown.Item href="/restaurants/arabian">Arabian</NavDropdown.Item>
-            <NavDropdown.Item href="/restaurants/gobi">Gobi</NavDropdown.Item>
+            <LinkContainer to="/restaurants/antarctic">
+              <NavDropdown.Item>Antarctic</NavDropdown.Item>
+            </LinkContainer>
+            <LinkContainer to="/restaurants/arctic">
+              <NavDropdown.Item>Arctic</NavDropdown.Item>
+            </LinkContainer>
+            <LinkContainer to="/restaurants/sahara">
+              <NavDropdown.Item>Sahara</NavDropdown.Item>
+            </LinkContainer>
+            <LinkContainer to="/restaurants/arabian">
+              <NavDropdown.Item>Arabian</NavDropdown.Item>
+            </LinkContainer>
+            <LinkContainer to="/restaurants/gobi">
+              <NavDropdown.Item>Gobi</NavDropdown.Item>
+            </LinkContainer>
           </NavDropdown>
           <Navbar.Text className="nav-link">
             <Link to="/menu">
