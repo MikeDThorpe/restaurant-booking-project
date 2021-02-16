@@ -26,7 +26,7 @@ function Footer(props) {
               <Link to="/restaurants/arabian">Arabian</Link>
             </ListGroup.Item>
             <ListGroup.Item className="foot-link">
-              <Link to="/restaurants/gobi">Gobi</Link>
+              <Link to="/restaurants/amazon">Amazon</Link>
             </ListGroup.Item>
           </ListGroup>
         </Col>
@@ -57,9 +57,7 @@ function Footer(props) {
         <Col>
           <ListGroup className="foot-rest">
             <ListGroup.Item className="foot-title">
-              <Link to="/book">
-                <b>Legal</b>
-              </Link>
+              <b>Legal</b>
             </ListGroup.Item>
             <ListGroup.Item className="foot-title">
               <Link to="/terms">Terms and Conditions</Link>
