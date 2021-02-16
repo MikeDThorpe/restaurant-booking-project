@@ -11,14 +11,15 @@ function RestaurantCards(props) {
   return (
     <div className="container">
       <h1 className="my-5">Restaurants</h1>
-      <div className="row">
+      <div className="row mb-4">
         <div className="col-6">
           <Card>
             <Card.Img variant="top" src={Arctic} />
             <Card.Body>
               <Card.Title>Arctic Restaurant</Card.Title>
               <Card.Text>
-                <Table striped>
+                <Table>
+                  <tbody>
                   <tr className="pr-3">
                     <td><strong>Weekday</strong></td>
                     <td>5:30 - 23:00</td>
@@ -31,12 +32,13 @@ function RestaurantCards(props) {
                     <td><strong>Sunday</strong></td>
                     <td>Closed</td>
                   </tr>
+                  </tbody>
                 </Table>
               </Card.Text>
             </Card.Body>
             <Card.Footer>
               <Button className="mr-3">Book table</Button>
-              <Button variant="outline-primary">Book table</Button>
+              <Button variant="outline-primary">View menu</Button>
             </Card.Footer>
           </Card>
         </div>
@@ -64,13 +66,13 @@ function RestaurantCards(props) {
             </Card.Body>
             <Card.Footer>
               <Button className="mr-3">Book table</Button>
-              <Button variant="outline-primary">Book table</Button>
+              <Button variant="outline-primary">View menu</Button>
             </Card.Footer>
           </Card>
         </div>
       </div>
-
-      <CardDeck className="mb-4">
+      <div className="row mb-4">
+        <div className="col-6">
         <Card>
           <Card.Img variant="top" src={Sahara} />
           <Card.Body>
@@ -94,9 +96,11 @@ function RestaurantCards(props) {
           </Card.Body>
           <Card.Footer>
             <Button className="mr-3">Book table</Button>
-            <Button variant="outline-primary">Book table</Button>
+            <Button variant="outline-primary">View menu</Button>
           </Card.Footer>
         </Card>
+        </div>
+        <div className="col-6">
         <Card>
           <Card.Img variant="top" src={Everest} />
           <Card.Body>
@@ -120,11 +124,13 @@ function RestaurantCards(props) {
           </Card.Body>
           <Card.Footer>
             <Button className="mr-3">Book table</Button>
-            <Button variant="outline-primary">Book table</Button>
+            <Button variant="outline-primary">View menu</Button>
           </Card.Footer>
         </Card>
-      </CardDeck>
-      <CardDeck className="mb-4">
+        </div>
+      </div>
+      <div className="row mb-4">
+        <div className="col-6">
         <Card>
           <Card.Img variant="top" src={Amazon} />
           <Card.Body>
@@ -148,10 +154,11 @@ function RestaurantCards(props) {
           </Card.Body>
           <Card.Footer>
             <Button className="mr-3">Book table</Button>
-            <Button variant="outline-primary">Book table</Button>
+            <Button variant="outline-primary">View menu</Button>
           </Card.Footer>
         </Card>
-      </CardDeck>
+        </div>
+      </div>
     </div>
   );
 }
