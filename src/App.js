@@ -1,7 +1,8 @@
 import './styles/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { Home, Menu, Restaurants } from "./pages";
-import { Navbar } from "./components";
+import { Navbar, Footer } from "./components";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/gobi" component={Restaurants} />
           </Route>
         </Switch> 
+        <Footer />
       </Router>
     </div>
   );

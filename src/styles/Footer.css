@@ -1,0 +1,21 @@
+.foot-rest {
+  font-size: smaller;
+}
+
+.foot-link {
+  padding: 0px;
+  border: none;
+}
+
+.foot-title {
+  border: none;
+  padding: 7px 0 7px 0;
+}
+
+a {
+  color: black;
+}
+
+hr {
+  border: 1px solid black;
+}
