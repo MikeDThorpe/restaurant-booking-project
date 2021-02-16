@@ -126,7 +126,7 @@ function RestaurantCards(props) {
             <Card.Title>Amazon  Restaurant</Card.Title>
             <Card.Text>
             <Table>
-                <tr className="pr-3">
+                <tr>
                     <td><strong>Weekday</strong></td>
                     <td>5:30 - 23:00</td>
                 </tr>
