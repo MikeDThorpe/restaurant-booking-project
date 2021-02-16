@@ -1,6 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Card, CardDeck, Button, Table } from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 import Arctic from '../assets/restaurant-thumbnails/arctic.jpg'
 import Antarctic from '../assets/restaurant-thumbnails/antarctic.jpg'
 import Sahara from '../assets/restaurant-thumbnails/sahara.jpg'
@@ -37,8 +38,12 @@ function RestaurantCards(props) {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <Button className="mr-3">Book table</Button>
-              <Button variant="outline-primary">View menu</Button>
+              <Link to="/restaurants/arctic">
+                <Button className="mr-3">Book table</Button>
+              </Link>
+              <Link to="/menu">
+                <Button variant="outline-primary">View menu</Button>
+              </Link>
             </Card.Footer>
           </Card>
         </div>
@@ -65,8 +70,12 @@ function RestaurantCards(props) {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <Button className="mr-3">Book table</Button>
-              <Button variant="outline-primary">View menu</Button>
+              <Link to="/restaurants/antarctic">
+                  <Button className="mr-3">Book table</Button>
+                </Link>
+                <Link to="/menu">
+                  <Button variant="outline-primary">View menu</Button>
+              </Link>
             </Card.Footer>
           </Card>
         </div>
@@ -95,8 +104,12 @@ function RestaurantCards(props) {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <Button className="mr-3">Book table</Button>
-            <Button variant="outline-primary">View menu</Button>
+              <Link to="/restaurants/sahara">
+                <Button className="mr-3">Book table</Button>
+              </Link>
+              <Link to="/menu">
+                <Button variant="outline-primary">View menu</Button>
+              </Link>
           </Card.Footer>
         </Card>
         </div>
@@ -123,8 +136,12 @@ function RestaurantCards(props) {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <Button className="mr-3">Book table</Button>
-            <Button variant="outline-primary">View menu</Button>
+            <Link to="/restaurants/everest">
+                  <Button className="mr-3">Book table</Button>
+                </Link>
+                <Link to="/menu">
+                  <Button variant="outline-primary">View menu</Button>
+              </Link>
           </Card.Footer>
         </Card>
         </div>
@@ -153,8 +170,12 @@ function RestaurantCards(props) {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <Button className="mr-3">Book table</Button>
-            <Button variant="outline-primary">View menu</Button>
+          <Link to="/restaurants/amazon">
+                <Button className="mr-3">Book table</Button>
+              </Link>
+              <Link to="/menu">
+                <Button variant="outline-primary">View menu</Button>
+              </Link>
           </Card.Footer>
         </Card>
         </div>
