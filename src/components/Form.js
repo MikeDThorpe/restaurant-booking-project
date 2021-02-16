@@ -43,7 +43,7 @@ class Form extends React.Component {
               >
                 Date
               </label>
-              <input type="datetime-local" 
+              <input type="date" 
                 value={this.state.date}
                 name="date"
                 onChange={this.changeHandler}
@@ -60,11 +60,10 @@ class Form extends React.Component {
               >
                 Time
               </label>
-              <input
+              <input type="time"
                 value={this.state.time}
                 name="time"
                 onChange={this.changeHandler}
-                type="text"
                 id="defaultFormRegisterEmailEx2"
                 className="form-control"
                 placeholder="24Hrs Format"
@@ -79,7 +78,7 @@ class Form extends React.Component {
               >
                 Number of Guests
               </label>
-              <input
+              <select
                 value={this.state.numberofguests}
                 onChange={this.changeHandler}
                 type="numberofguests"
