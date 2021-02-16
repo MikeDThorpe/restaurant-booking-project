@@ -5,8 +5,9 @@ import "../styles/Footer.css";
 
 function Footer(props) {
   return (
-    <Container>
+    <footer>
       <hr />
+    <Container>
       <Row>
         <Col>
           <ListGroup className="foot-rest">
@@ -73,6 +74,7 @@ function Footer(props) {
       </Row>
       <br />
     </Container>
+    </footer>
   );
 }
 

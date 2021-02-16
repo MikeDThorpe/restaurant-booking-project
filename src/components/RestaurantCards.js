@@ -13,7 +13,7 @@ function RestaurantCards(props) {
     <div className="container">
       <h1 className="my-5">Restaurants</h1>
       <div className="row mb-4">
-        <div className="col-6">
+        <div className="col-xs-12 col-md-6">
           <Card>
             <Card.Img variant="top" src={Arctic} />
             <Card.Body>
@@ -47,7 +47,7 @@ function RestaurantCards(props) {
             </Card.Footer>
           </Card>
         </div>
-        <div className="col-6">
+        <div className="col-xs-12 col-md-6">
           <Card>
             <Card.Img variant="top" src={Antarctic} />
             <Card.Body>
@@ -81,7 +81,7 @@ function RestaurantCards(props) {
         </div>
       </div>
       <div className="row mb-4">
-        <div className="col-6">
+        <div className="col-xs-12 col-md-6">
         <Card>
           <Card.Img variant="top" src={Sahara} />
           <Card.Body>
@@ -113,7 +113,7 @@ function RestaurantCards(props) {
           </Card.Footer>
         </Card>
         </div>
-        <div className="col-6">
+        <div className="col-xs-12 col-md-6">
         <Card>
           <Card.Img variant="top" src={Everest} />
           <Card.Body>
@@ -147,7 +147,7 @@ function RestaurantCards(props) {
         </div>
       </div>
       <div className="row mb-4">
-        <div className="col-6">
+        <div className="col-xs-12 col-md-6">
         <Card>
           <Card.Img variant="top" src={Amazon} />
           <Card.Body>
