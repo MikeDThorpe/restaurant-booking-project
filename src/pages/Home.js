@@ -1,8 +1,11 @@
 import React from "react";
+import {RestaurantCards} from '../components'
 
 function Home(props) {
   return (
-    <h1>Home</h1>
+    <div>
+      <RestaurantCards />
+    </div>
   );
 }
 
