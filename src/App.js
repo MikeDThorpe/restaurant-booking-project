@@ -1,6 +1,7 @@
 import './styles/App.css';
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { Home, Menu, Restaurants } from "./pages";
+import { Footer } from "./components";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/gobi" component={Restaurants} />
           </Route>*/}
         </Switch> 
+        <Footer />
       </Router>
     </div>
   );
