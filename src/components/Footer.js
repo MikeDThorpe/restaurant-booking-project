@@ -32,24 +32,27 @@ function Footer(props) {
         </Col>
         <Col>
           <ListGroup className="foot-rest">
-            <ListGroup.Item className="foot-title">
+          <ListGroup.Item className="foot-title">
+              <b>Find Out More</b>
+            </ListGroup.Item>
+            <ListGroup.Item className="foot-link">
               <Link to="/book">
-                <b>Book Table</b>
+                Book a Table
               </Link>
             </ListGroup.Item>
-            <ListGroup.Item className="foot-title">
+            <ListGroup.Item className="foot-link">
               <Link to="/menu">
-                <b>Menu</b>
+                Menu
               </Link>
             </ListGroup.Item>
-            <ListGroup.Item className="foot-title">
+            <ListGroup.Item className="foot-link">
               <Link to="/about">
-                <b>About Us</b>
+                About Us
               </Link>
             </ListGroup.Item>
-            <ListGroup.Item className="foot-title">
+            <ListGroup.Item className="foot-link">
               <Link to="/contact">
-                <b>Contact Us</b>
+                Contact Us
               </Link>
             </ListGroup.Item>
           </ListGroup>
@@ -59,10 +62,10 @@ function Footer(props) {
             <ListGroup.Item className="foot-title">
               <b>Legal</b>
             </ListGroup.Item>
-            <ListGroup.Item className="foot-title">
+            <ListGroup.Item className="foot-link">
               <Link to="/terms">Terms and Conditions</Link>
             </ListGroup.Item>
-            <ListGroup.Item className="foot-title">
+            <ListGroup.Item className="foot-link">
               <Link to="/privacy">Privacy Policy</Link>
             </ListGroup.Item>
           </ListGroup>
