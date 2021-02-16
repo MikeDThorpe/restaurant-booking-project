@@ -1,4 +1,5 @@
 import './styles/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { Home, Menu, Restaurants } from "./pages";
 import { Footer } from "./components";
