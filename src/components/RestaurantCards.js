@@ -120,7 +120,7 @@ function RestaurantCards(props) {
         </Card>
       </CardDeck>
       <CardDeck className="mb-4">
-      <Card>
+      <Card className="col-sm-6">
         <Card.Img variant="top" src={Amazon} />
           <Card.Body>
             <Card.Title>Amazon  Restaurant</Card.Title>
