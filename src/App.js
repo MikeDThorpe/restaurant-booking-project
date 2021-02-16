@@ -3,12 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { Home, Menu, Restaurants } from "./pages";
 import { Navbar, Footer } from "./components";
-import Form from "./components/Form"
 
 function App() {
   return (
     <div className="App">
-      
+
       <Router>
         <Navbar />
         <Switch>
@@ -23,8 +22,7 @@ function App() {
             <Route path="/arabian" component={Restaurants} />
             <Route path="/gobi" component={Restaurants} />
           </Route>
-        </Switch> 
-        <Form />
+        </Switch>
         <Footer />
       </Router>
     </div>
