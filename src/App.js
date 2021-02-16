@@ -11,7 +11,6 @@ function App() {
       
       <Router>
         <Navbar />
-        <Form />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/menu" component={Menu} />
@@ -25,6 +24,7 @@ function App() {
             <Route path="/gobi" component={Restaurants} />
           </Route>
         </Switch> 
+        <Form />
         <Footer />
       </Router>
     </div>
