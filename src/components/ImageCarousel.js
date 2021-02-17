@@ -15,6 +15,7 @@ let ImageCarousel = (props) => {
                 <Carousel.Item interval={1000}>
                 <img
                 className="d-block w-100"
+                src={Arctic}
                 alt="Arctic"
                 />
             </Carousel.Item>
