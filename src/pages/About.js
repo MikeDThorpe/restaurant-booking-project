@@ -1,11 +1,11 @@
 import React from "react";
 
-function Menu(props) {
+function About(props) {
   return (
     <div class="container">
-      <h1>Menu</h1>
-    </div>
+    <h1>About</h1>
+  </div>
   );
 }
 
-export default Menu;
+export default About;
