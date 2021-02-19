@@ -38,8 +38,8 @@ function MyNav(props) {
             <LinkContainer to="/restaurants/arabian">
               <NavDropdown.Item>Arabian</NavDropdown.Item>
             </LinkContainer>
-            <LinkContainer to="/restaurants/gobi">
-              <NavDropdown.Item>Gobi</NavDropdown.Item>
+            <LinkContainer to="/restaurants/amazon">
+              <NavDropdown.Item>Amazon</NavDropdown.Item>
             </LinkContainer>
           </NavDropdown>
           <Navbar.Text className="nav-link">
