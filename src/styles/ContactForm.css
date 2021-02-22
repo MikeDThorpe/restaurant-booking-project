@@ -1,0 +1,17 @@
+.contact-cont {
+  padding:  0;
+  border: 1px solid black;
+}
+
+.contact-head {
+  background-color: #358fe8;
+}
+
+.contact-form {
+  padding: 2rem;
+}
+
+.submit-btn {
+  background-color: #dec131;
+  border-color: #dec131;
+}
