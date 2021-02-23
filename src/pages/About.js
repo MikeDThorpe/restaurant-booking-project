@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function About(props) {
   return (
-    <div class="container">
+    <div className="container">
     <AboutPage />
   </div>
   );
