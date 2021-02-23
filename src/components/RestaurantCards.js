@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 import Arctic from '../assets/restaurant-thumbnails/arctic.jpg'
 import Antarctic from '../assets/restaurant-thumbnails/antarctic.jpg'
 import Sahara from '../assets/restaurant-thumbnails/sahara.jpg'
-import Everest from '../assets/restaurant-thumbnails/everest.jpg'
+import Arabian from '../assets/restaurant-thumbnails/arabian.jpg'
 import Amazon from '../assets/restaurant-thumbnails/amazon.jpg'
 
 function RestaurantCards(props) {
@@ -115,7 +115,7 @@ function RestaurantCards(props) {
         </div>
         <div className="col-xs-12 col-md-6">
         <Card>
-          <Card.Img variant="top" src={Everest} />
+          <Card.Img variant="top" src={Arabian} />
           <Card.Body>
             <Card.Title>Arabian Restaurant</Card.Title>
             <Card.Text>

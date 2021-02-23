@@ -1,7 +1,7 @@
 import Arctic from "../restaurant-thumbnails/arctic.jpg";
 import Antarctic from "../restaurant-thumbnails/antarctic.jpg";
 import Sahara from "../restaurant-thumbnails/sahara.jpg";
-import Everest from "../restaurant-thumbnails/everest.jpg";
+import Arabian from "../restaurant-thumbnails/arabian.jpg";
 import Amazon from "../restaurant-thumbnails/amazon.jpg";
 
 let restaurantData = [
@@ -40,7 +40,7 @@ let restaurantData = [
   },
   {
     name: "Arabian",
-    image: Everest,
+    image: Arabian,
     address: "Oroug Bani M'aradh Wildlife Sanctuary, Saudi Arabia",
     openingTimes: {
       weekday: "5:30 - 23:00",
