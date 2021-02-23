@@ -4,7 +4,8 @@ import { Card } from 'react-bootstrap';
 import Avatar from 'react-avatar';
 import {FaFacebook}  from 'react-icons/fa';
 import {FaInstagram} from 'react-icons/fa';
-import {FaTwitter} from 'react-icons/fa'
+import {FaTwitter} from 'react-icons/fa';
+import '../styles/About.css';
 
 
  class About extends React.Component {

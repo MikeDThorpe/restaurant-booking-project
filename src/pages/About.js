@@ -1,11 +1,12 @@
 import React from "react";
-import '../styles/About.css'
+import AboutPage from '../components/AboutPage';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function About(props) {
   return (
     <div class="container">
-    <h1>About</h1>
-    <About />
+    <AboutPage />
   </div>
   );
 }
