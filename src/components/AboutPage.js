@@ -14,7 +14,7 @@ import '../styles/About.css';
             <Container>
                 <div className="About">
   <Row>
-    <Col md="8">
+    <Col md="12">
         <h1>About Us</h1>
         <br></br>
         <p>
@@ -35,7 +35,7 @@ import '../styles/About.css';
         dolorem eum fugiat quo voluptas nulla pariatur?
         </p>
     </Col>
-    <Col md="4">
+    <Col xs="12">
     <img className="avatar"
                 src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
                 alt="Avatar"
