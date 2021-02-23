@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from "react-router-dom/Link";
+import { Link } from "react-router-dom";
 import {Row, Col, Table, Form, Button} from 'react-bootstrap'
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -87,7 +87,7 @@ class Menus extends React.Component {
                     </select>
                 </Form>
                 <Link to={`/restaurants/${this.state.restaurant}`}>
-                    <button class="btn book-btn text-white" disabled={this.state.restaurant ? false : true}>Book Table</button>
+                    <button className="btn book-btn text-white" disabled={this.state.restaurant ? false : true}>Book Table</button>
                 </Link>
             </div>
         </div>
