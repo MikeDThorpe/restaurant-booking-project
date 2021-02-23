@@ -1,11 +1,16 @@
-import React from "react";
+import { ContactForm } from "../components";
 
-function Contact(props) {
+const Contact = () => {
+  const submitForm = (contactForm) => {
+    // Add submit function when backend is added
+  };
+
   return (
-    <div class="container">
-      <h1>Contact</h1>
+    <div className="container">
+      <br />
+      <ContactForm submitForm={submitForm} />
     </div>
   );
-}
+};
 
 export default Contact;

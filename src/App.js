@@ -13,6 +13,8 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/menu" component={Menu} />
           <Route path="/About" component={About} />
+
+          <Route path="/contact" component={Contact} />
           <Route path="/restaurants/:name" children={<Restaurants />}>
           </Route>
         </Switch>

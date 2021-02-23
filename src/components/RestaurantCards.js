@@ -117,7 +117,7 @@ function RestaurantCards(props) {
         <Card>
           <Card.Img variant="top" src={Everest} />
           <Card.Body>
-            <Card.Title>Everest Restaurant</Card.Title>
+            <Card.Title>Arabian Restaurant</Card.Title>
             <Card.Text>
               <Table>
                 <tr className="pr-3">
