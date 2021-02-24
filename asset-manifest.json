@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/restaurant-booking-project/static/css/main.d7c7eb55.chunk.css",
-    "main.js": "/restaurant-booking-project/static/js/main.2a01b491.chunk.js",
-    "main.js.map": "/restaurant-booking-project/static/js/main.2a01b491.chunk.js.map",
-    "runtime-main.js": "/restaurant-booking-project/static/js/runtime-main.8bc91769.js",
-    "runtime-main.js.map": "/restaurant-booking-project/static/js/runtime-main.8bc91769.js.map",
+    "main.css": "/restaurant-booking-project/static/css/main.8476c222.chunk.css",
+    "main.js": "/restaurant-booking-project/static/js/main.a44de1a5.chunk.js",
+    "main.js.map": "/restaurant-booking-project/static/js/main.a44de1a5.chunk.js.map",
+    "runtime-main.js": "/restaurant-booking-project/static/js/runtime-main.50016b25.js",
+    "runtime-main.js.map": "/restaurant-booking-project/static/js/runtime-main.50016b25.js.map",
     "static/css/2.150d169a.chunk.css": "/restaurant-booking-project/static/css/2.150d169a.chunk.css",
-    "static/js/2.8f9ddcc2.chunk.js": "/restaurant-booking-project/static/js/2.8f9ddcc2.chunk.js",
-    "static/js/2.8f9ddcc2.chunk.js.map": "/restaurant-booking-project/static/js/2.8f9ddcc2.chunk.js.map",
-    "static/js/3.09cc80df.chunk.js": "/restaurant-booking-project/static/js/3.09cc80df.chunk.js",
-    "static/js/3.09cc80df.chunk.js.map": "/restaurant-booking-project/static/js/3.09cc80df.chunk.js.map",
+    "static/js/2.f5f1558a.chunk.js": "/restaurant-booking-project/static/js/2.f5f1558a.chunk.js",
+    "static/js/2.f5f1558a.chunk.js.map": "/restaurant-booking-project/static/js/2.f5f1558a.chunk.js.map",
+    "static/js/3.d3d0f76c.chunk.js": "/restaurant-booking-project/static/js/3.d3d0f76c.chunk.js",
+    "static/js/3.d3d0f76c.chunk.js.map": "/restaurant-booking-project/static/js/3.d3d0f76c.chunk.js.map",
     "index.html": "/restaurant-booking-project/index.html",
     "static/css/2.150d169a.chunk.css.map": "/restaurant-booking-project/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.d7c7eb55.chunk.css.map": "/restaurant-booking-project/static/css/main.d7c7eb55.chunk.css.map",
-    "static/js/2.8f9ddcc2.chunk.js.LICENSE.txt": "/restaurant-booking-project/static/js/2.8f9ddcc2.chunk.js.LICENSE.txt",
+    "static/css/main.8476c222.chunk.css.map": "/restaurant-booking-project/static/css/main.8476c222.chunk.css.map",
+    "static/js/2.f5f1558a.chunk.js.LICENSE.txt": "/restaurant-booking-project/static/js/2.f5f1558a.chunk.js.LICENSE.txt",
     "static/media/amazon.ef4dc665.jpg": "/restaurant-booking-project/static/media/amazon.ef4dc665.jpg",
     "static/media/antarctic.b9992d1e.jpg": "/restaurant-booking-project/static/media/antarctic.b9992d1e.jpg",
     "static/media/arctic.9ab6acd7.jpg": "/restaurant-booking-project/static/media/arctic.9ab6acd7.jpg",
@@ -21,10 +21,10 @@
     "static/media/sahara.7e654741.jpg": "/restaurant-booking-project/static/media/sahara.7e654741.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8bc91769.js",
+    "static/js/runtime-main.50016b25.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.8f9ddcc2.chunk.js",
-    "static/css/main.d7c7eb55.chunk.css",
-    "static/js/main.2a01b491.chunk.js"
+    "static/js/2.f5f1558a.chunk.js",
+    "static/css/main.8476c222.chunk.css",
+    "static/js/main.a44de1a5.chunk.js"
   ]
 }
